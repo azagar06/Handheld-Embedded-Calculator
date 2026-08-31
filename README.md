@@ -1,5 +1,3 @@
-# Handheld-Embedded-Calculator
-Custom handheld calculator engineered from concept to prototype using C++, ESP32, KiCad, and SOLIDWORKS, featuring custom firmware, a 2-layer PCB, and a 3D-printed enclosure.
 # Handheld Embedded Calculator
 
 A fully functional handheld calculator designed and engineered from concept to physical prototype. This project integrates custom C++ firmware, embedded electronics, PCB design, and mechanical enclosure design into a compact consumer-style device.
