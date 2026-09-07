@@ -2,7 +2,7 @@
 
 A fully functional handheld calculator developed from concept to physical prototype. This project combines custom C++ firmware, embedded electronics, PCB design, rechargeable power, and a 3D-printed mechanical enclosure in a compact consumer-style device.
 
-![Final handheld calculator](https://github.com/azagar06/Handheld-Embedded-Calculator/blob/main/Handheld-Embedded-Calculator-Browser-Safe/images/final-calculator.jpg?raw=true)
+![Final handheld calculator](Handheld-Embedded-Calculator-Browser-Safe/images/final-calculator.jpg)
 
 ## Project Overview
 
@@ -51,7 +51,7 @@ The project progressed through several hardware iterations:
 
 The first prototype used an Arduino Uno to validate the calculator's computational logic, keypad input, LCD output, and C++ firmware.
 
-![Arduino breadboard prototype](https://github.com/azagar06/Handheld-Embedded-Calculator/blob/main/Handheld-Embedded-Calculator-Browser-Safe/images/arduino-breadboard.png?raw=true)
+![Arduino breadboard prototype](Handheld-Embedded-Calculator-Browser-Safe/images/arduino-breadboard.png)
 
 ### 2. ESP32 Architecture Migration
 
@@ -59,7 +59,7 @@ After validating the initial design, the system was redesigned around an ESP32 a
 
 This reduced wiring complexity and provided a smaller platform for the final handheld device.
 
-![ESP32 breadboard prototype](https://github.com/azagar06/Handheld-Embedded-Calculator/blob/main/Handheld-Embedded-Calculator-Browser-Safe/images/esp32-breadboard.png?raw=true)
+![ESP32 breadboard prototype](Handheld-Embedded-Calculator-Browser-Safe/images/esp32-breadboard.png)
 
 ### 3. Perf-Board Prototype
 
@@ -67,7 +67,7 @@ An intermediate perf-board version was built before committing to a custom PCB.
 
 This stage validated the electrical architecture, permanent connections, and power delivery in a more durable configuration.
 
-![Perf-board prototype](https://github.com/azagar06/Handheld-Embedded-Calculator/blob/main/Handheld-Embedded-Calculator-Browser-Safe/images/perf-board.png?raw=true)
+![Perf-board prototype](Handheld-Embedded-Calculator-Browser-Safe/images/perf-board.png)
 
 ### 4. Custom PCB
 
@@ -75,15 +75,15 @@ A custom two-layer PCB was designed in KiCad around the physical constraints of 
 
 The PCB reduced unnecessary board area, simplified the wiring, and improved the reliability and organization of the final assembly.
 
-![Manufactured custom PCBs](https://github.com/azagar06/Handheld-Embedded-Calculator/blob/main/Handheld-Embedded-Calculator-Browser-Safe/images/custom-pcbs.jpg?raw=true)
+![Manufactured custom PCBs](Handheld-Embedded-Calculator-Browser-Safe/images/custom-pcbs.jpg)
 
 #### KiCad Schematic
 
-![KiCad schematic](https://github.com/azagar06/Handheld-Embedded-Calculator/blob/main/Handheld-Embedded-Calculator-Browser-Safe/images/schematic.png?raw=true)
+![KiCad schematic](Handheld-Embedded-Calculator-Browser-Safe/images/schematic.png)
 
 #### KiCad PCB Layout
 
-![KiCad PCB layout](https://github.com/azagar06/Handheld-Embedded-Calculator/blob/main/Handheld-Embedded-Calculator-Browser-Safe/images/pcb-layout.png?raw=true)
+![KiCad PCB layout](Handheld-Embedded-Calculator-Browser-Safe/images/pcb-layout.png)
 
 ### 5. Mechanical Enclosure
 
@@ -91,19 +91,19 @@ A compact snap-fit enclosure was designed in SOLIDWORKS to integrate the display
 
 The enclosure was manufactured using 3D printing. Printable STL files are included in the repository.
 
-![SOLIDWORKS enclosure](https://github.com/azagar06/Handheld-Embedded-Calculator/blob/main/Handheld-Embedded-Calculator-Browser-Safe/images/enclosure.png?raw=true)
+![SOLIDWORKS enclosure](Handheld-Embedded-Calculator-Browser-Safe/images/enclosure.png)
 
 ## Final Assembly
 
 The finished system integrates the ESP32, custom firmware, display, keypad, custom PCB, rechargeable power system, and 3D-printed enclosure.
 
-![Internal electronics assembly](https://github.com/azagar06/Handheld-Embedded-Calculator/blob/main/Handheld-Embedded-Calculator-Browser-Safe/images/internal-electronics.jpg?raw=true)
+![Internal electronics assembly](Handheld-Embedded-Calculator-Browser-Safe/images/internal-electronics.jpg)
 
 ## Firmware
 
 The calculator firmware is located here:
 
-[`handheld_calculator.ino`](./Handheld-Embedded-Calculator-Browser-Safe/firmware/handheld_calculator/handheld_calculator.ino)
+[`handheld_calculator.ino`](Handheld-Embedded-Calculator-Browser-Safe/firmware/handheld_calculator/handheld_calculator.ino)
 
 The firmware uses the following Arduino libraries:
 
@@ -132,13 +132,13 @@ The KiCad project includes:
 - `Calc.kicad_sch`
 - `Calc.kicad_pcb`
 
-[Open the KiCad project folder](./Handheld-Embedded-Calculator-Browser-Safe/hardware/kicad/calculator)
+[Open the KiCad project folder](Handheld-Embedded-Calculator-Browser-Safe/hardware/kicad/calculator)
 
 ### Gerber Files
 
 PCB manufacturing files are provided as:
 
-[`calculator-gerbers.zip`](./Handheld-Embedded-Calculator-Browser-Safe/hardware/gerbers/calculator-gerbers.zip)
+[`calculator-gerbers.zip`](Handheld-Embedded-Calculator-Browser-Safe/hardware/gerbers/calculator-gerbers.zip)
 
 ## Mechanical Design Files
 
@@ -149,9 +149,9 @@ The repository contains:
 - `Calculator.SLDASM`
 - `calcbase.SLDPRT`
 
-[Open the SOLIDWORKS folder](./Handheld-Embedded-Calculator-Browser-Safe/mechanical/solidworks)
+[Open the SOLIDWORKS folder](Handheld-Embedded-Calculator-Browser-Safe/mechanical/solidworks)
 
-The larger `calctop.SLDPRT` source file is available in the repository's [Releases](https://github.com/azagar06/Handheld-Embedded-Calculator/releases) section.
+The larger `calctop.SLDPRT` source file is available in the repository's [Releases](../../releases) section.
 
 ### 3D-Printable Files
 
@@ -160,7 +160,7 @@ The following STL files are included:
 - `calcbase.STL`
 - `calctop.STL`
 
-[Open the STL folder](./Handheld-Embedded-Calculator-Browser-Safe/mechanical/stl)
+[Open the STL folder](Handheld-Embedded-Calculator-Browser-Safe/mechanical/stl)
 
 ## Engineering Challenges
 
@@ -247,7 +247,7 @@ Handheld-Embedded-Calculator/
 
 ## Documentation
 
-Printable project summaries are available in the [`docs`](./Handheld-Embedded-Calculator-Browser-Safe/docs) folder.
+Printable project summaries are available in the [`docs`](Handheld-Embedded-Calculator-Browser-Safe/docs) folder.
 
 ## Author
 
