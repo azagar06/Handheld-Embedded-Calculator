@@ -2,7 +2,7 @@
 
 A fully functional handheld calculator developed from concept to physical prototype. This project combines custom C++ firmware, embedded electronics, PCB design, rechargeable power, and a 3D-printed mechanical enclosure in a compact consumer-style device.
 
-![Final handheld calculator](Handheld-Embedded-Calculator-Browser-Safe/images/final-calculator.jpg)
+![Final handheld calculator](Handheld-Embedded-Calculator-Browser-Safe/images/final-calculator-upright.png)
 
 ## Project Overview
 
